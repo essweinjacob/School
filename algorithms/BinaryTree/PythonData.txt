@@ -1,0 +1,11 @@
+The average height for  5  of these binary trees with  100  keys :  14.2
+The average height for  5  of these binary trees with  500  keys :  19.8
+The average height for  5  of these binary trees with  1000  keys :  19.6
+
+The average height for  10  of these binary trees with  100  keys :  12.8
+The average height for  10  of these binary trees with  500  keys :  17.7
+The average height for  10  of these binary trees with  1000  keys :  20.4
+
+The average height for  15  of these binary trees with  100  keys :  12.9
+The average height for  15  of these binary trees with  500  keys :  18.0
+The average height for  15  of these binary trees with  1000  keys :  20.4
