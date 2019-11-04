@@ -1,0 +1,10 @@
+1. chmod o=wx test.sh
+2. ls >> output.txt
+   date >> output.txt
+   pwd >> output.txt
+3. tabedit file2.c 
+4. grep -vw "int" test.c
+5. grep -x "^[A-Z].*" poem.txt
+6. find . -perm -u+rwx,g+r,o+r
+7. tar -cvf test.tar dir1
+8. tar -xvf test.tar

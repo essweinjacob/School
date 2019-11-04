@@ -1,0 +1,12 @@
+#!/bin/bash
+
+echo "Enter a directory"
+
+read userDir
+
+if [[ -z "$userDir" ]]
+then
+    find . -type f,d -printf "%s\t%p\n" | sort -n
+else
+    find ~/$userDir -type f,d -printf "%s\t%p\n" | sort -n
+    fi

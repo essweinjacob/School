@@ -1,0 +1,3 @@
+-Wall Warnings
+-std=c89 std 89
+/ANSI

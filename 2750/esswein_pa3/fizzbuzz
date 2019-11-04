@@ -1,0 +1,35 @@
+#!/bin/bash
+
+echo "Enter a number. If it is divisible by 3 I will print Fizz, if it is divisible by 5 it will print Buzz, if it is divisible by both it will print FizzBuzz. If no number is given it will print numbers 1-20, otherwise it will print 1-your number"
+
+read userNum
+zero=0
+threeDivs=$((userNum%3))
+fiveDivs=$((userNum%5))
+
+if [[ -z "$userNum" ]]
+then
+    for (( i =1; i<=20; i++ ))
+        do
+            echo -n "$i "
+        done
+    echo ""
+else
+    if [ "$threeDivs" -eq "$zero" ]
+    then
+        if [ "$fiveDivs" -eq "$zero" ]
+        then
+            echo "FizzBuzz"
+        else
+            echo "Fizz"
+        fi
+    elif [ "$fiveDivs" -eq "$zero" ]
+    then
+        echo "Buzz"
+    else
+    for (( i=1; i<="$userNum"; i++ ))
+        do
+            echo -n "$i "
+        done
+    fi
+fi

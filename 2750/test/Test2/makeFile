@@ -1,0 +1,17 @@
+CC = gcc
+TARGET = stats (THIS IS EXECUTABLE)
+CFLAG = -Wall -ansi
+SRC = owner.c dog.c
+OBJ = owner.o dog.o
+
+$(TARGET): $(OBJ)
+    $(CC) $(CFLAG) -o stats $(OBJ)
+    
+owner.o: owner.c dog.h
+    $(CC) -c $(CFLAG) owner.c
+
+dog.o: dog.c
+    $(CC) -c $(CFLAG) dog.c
+
+clean:
+    rm -f $(OBJ) stats

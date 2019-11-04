@@ -1,0 +1,28 @@
+Script started on 2019-06-25 14:32:38-0500
+     June 2019        
+Su Mo Tu We Th Fr Sa  
+                   1  
+ 2  3  4  5  6  7  8  
+ 9 10 11 12 13 14 15  
+16 17 18 19 20 21 22  
+23 24 [7m25[27m 26 27 28 29  
+30                    
+]0;esswe@LAPTOP-31SK84EO: /mnt/c/Users/esswe/Documents[01;32messwe@LAPTOP-31SK84EO[00m:[01;34m/mnt/c/Users/esswe/Documents[00m$ pwd
+/mnt/c/Users/esswe/Documents
+]0;esswe@LAPTOP-31SK84EO: /mnt/c/Users/esswe/Documents[01;32messwe@LAPTOP-31SK84EO[00m:[01;34m/mnt/c/Users/esswe/Documents[00m$ mkdir output
+mkdir: cannot create directory ‘output’: File exists
+]0;esswe@LAPTOP-31SK84EO: /mnt/c/Users/esswe/Documents[01;32messwe@LAPTOP-31SK84EO[00m:[01;34m/mnt/c/Users/esswe/Documents[00m$ ls -la output
+total 0
+drwxrwxrwx 1 esswe esswe 4096 Jun 25 14:31 [0m[34;42m.[0m
+drwxrwxrwx 1 esswe esswe 4096 Jun 25 14:31 [34;42m..[0m
+]0;esswe@LAPTOP-31SK84EO: /mnt/c/Users/esswe/Documents[01;32messwe@LAPTOP-31SK84EO[00m:[01;34m/mnt/c/Users/esswe/Documents[00m$ c[Kcd output
+]0;esswe@LAPTOP-31SK84EO: /mnt/c/Users/esswe/Documents/output[01;32messwe@LAPTOP-31SK84EO[00m:[01;34m/mnt/c/Users/esswe/Documents/output[00m$ pwd
+/mnt/c/Users/esswe/Documents/output
+]0;esswe@LAPTOP-31SK84EO: /mnt/c/Users/esswe/Documents/output[01;32messwe@LAPTOP-31SK84EO[00m:[01;34m/mnt/c/Users/esswe/Documents/output[00m$ ls[K[Kdate >> output.txt
+]0;esswe@LAPTOP-31SK84EO: /mnt/c/Users/esswe/Documents/output[01;32messwe@LAPTOP-31SK84EO[00m:[01;34m/mnt/c/Users/esswe/Documents/output[00m$ ls >> output.txt
+]0;esswe@LAPTOP-31SK84EO: /mnt/c/Users/esswe/Documents/output[01;32messwe@LAPTOP-31SK84EO[00m:[01;34m/mnt/c/Users/esswe/Documents/output[00m$ pwd >> output.txt
+]0;esswe@LAPTOP-31SK84EO: /mnt/c/Users/esswe/Documents/output[01;32messwe@LAPTOP-31SK84EO[00m:[01;34m/mnt/c/Users/esswe/Documents/output[00m$ m[Kcd ..
+]0;esswe@LAPTOP-31SK84EO: /mnt/c/Users/esswe/Documents[01;32messwe@LAPTOP-31SK84EO[00m:[01;34m/mnt/c/Users/esswe/Documents[00m$ c[Kmv output.t[K[K[K[Kt[Kut Coding/2750/esswein_quiz2/
+]0;esswe@LAPTOP-31SK84EO: /mnt/c/Users/esswe/Documents[01;32messwe@LAPTOP-31SK84EO[00m:[01;34m/mnt/c/Users/esswe/Documents[00m$ cat qui[K[K[K[K[K[K[Kexit
+
+Script done on 2019-06-25 14:34:15-0500
